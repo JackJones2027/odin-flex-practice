@@ -1,0 +1,39 @@
+.whole {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top,
+.bottom {
+flex: 1 1 auto;
+margin: 10px;
+border: solid red 5px;
+background-color: rgba(231, 11, 11, 0.288);
+display: flex;
+}
+
+.left {
+display: flex;
+flex-direction: column;
+margin: 10px;
+border: solid purple 10px;
+background-color: rgba(128, 0, 128, 0.171);
+flex: 1 1 auto;
+}
+
+.right {
+    display: flex;
+    margin: 10px;
+    border: solid blue 10px;
+    background-color: rgba(19, 0, 128, 0.301);
+    flex:1 1 auto;
+}
+
+.item {
+    flex: auto;
+    margin:5px;
+    border: solid green 2px;
+    background-color: lightgreen;
+}
